@@ -6,3 +6,6 @@ releases:
   - name: node-exporter
     namespace: default
     chart: prometheus-community/prometheus-node-exporter
+    values:
+      - image:
+          tag: v1.2.1
